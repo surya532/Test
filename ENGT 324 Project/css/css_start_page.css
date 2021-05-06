@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Ailerons'; 
+    src: url("..//fonts/Ailerons.otf");
+}
+
+@font-face{
+    font-family: 'Voltage';
+    src: url(..//fonts/Voltage-Regular.otf)
+}
+
+@font-face{
+    font-family:'Tenika';
+    src: url(..//fonts/Tenika.ttf)
+}
+
+*{
+    font-family:'Tenika', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.full-screen video{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: -1;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: black 5px 5px 10px;
+    line-height: 0.9;
+    letter-spacing: -10px;
+    font-size: 40px;
+    font-family: 'Ailerons', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+}
+
+.mars{
+
+    color: orangered;
+    font-size: 200px;
+    padding-top: 75px;
+    margin: 0;
+    letter-spacing: -20px;
+    animation: color-change 3s infinite;
+
+}
+
+/* Title Animation*/
+@keyframes color-change{
+    0% {color: red;}
+    50%{color: rgb(190, 51, 1);}
+    100%{color:red;}
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color:white;
+    text-align: center;
+    text-shadow: black 5px 5px 10px;
+    margin-left: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgba(41, 4, 4, 0.349);
+    align-content: center;
+
+}
+
+li a{
+    text-transform: capitalize;
+    font-family: "Voltage", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: black 5px 5px 10px;
+}
+li a:hover{
+    background-color: gray;
+}
+
+li{
+    display: inline;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.createAccButton
+{
+    font-family: 'Voltage', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#e74c3c;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: black 5px 5px 15px;
+    font-size: 25px;
+    padding: 15px 15px 15px 15px;
+    border: 5px solid white;
+    border-radius: 30px;
+    
+}
+
+.createAccButton:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+
+.loginButton{
+    font-family: 'Voltage', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#3498db;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: black 5px 5px 15px;
+    font-size: 25px;
+    padding: 15px 15px 15px 15px;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+.loginButton:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.center {
+    text-align: center;
+  }

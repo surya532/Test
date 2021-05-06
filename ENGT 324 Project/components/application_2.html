@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="..//css/css_application_2.css" rel="stylesheet" type="text/css">
+    <title>Application (2)</title>
+    <script src = "..//js/alerts.js"></script>
+
+
+</head>
+
+<body>
+    <div class="center">
+        <ul>
+            <li><a href="start_page.html">Home</a></li>
+            <li><a href="create_account.html"> Create Account </a></li>
+            <li><a href="loginpage.html"> Login </a></li>
+            <li><a href="Project About Us Page 2.html"> Mission Requirements </a></li>
+            <li><a href="Project About us Page 3.html"> Stat Info </a></li>
+            <li><a href="videopage.html"> Videos </a></li>
+            <li><a href="Project About us Page 1.html"> About Us </a></li>
+            <li><a href="Project About Us Page 4.html"> Contact </a></li>
+            <li><a href ="application_1.html"> Application </a></li>
+
+
+        </ul>
+    </div>
+    
+    <div class="parent">
+        <div class="title">
+            <h2> Application (2 of 3)</h2>
+
+            <h4> <i> This part of the application focuses on qualifications. </i></h4>
+            <div class="marspic">
+                <img src="..//img/Mars-planet-space.jpeg" rel = "Mars Photo" alt = "Mars">
+            </div>
+        </div>
+        <form action="..//components/application_3.html" ; method="POST" ; class="form"; onsubmit = "appAlert()">
+
+            <div class="box">
+                <h5> Education </h5>
+                <input type="text" ; name="college" ; id="college" ; placeholder="University/College Name" required>
+                <br> <br>
+                <input type="text" ; name="degree" ; id="degree" ; placeholder="Degree Pursued" required>
+                <br>
+                <small> <i>*Applicant must atleast have acquired a Master's</i></small> <br><br>
+
+                <label for="term"> Graduation term: </label> <br>
+                <select name="term">
+                    <option disabled selected value> Term </option>
+                    <option value="SPR"> Spring </option>
+                    <option value="FALL"> Fall </option>
+                </select>
+                <select name="gradYear" ; id="gradYear">
+                    <option disabled selected value> Year </option>
+                    <option disabled selected value> Year</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                    <option value="1988">1988</option>
+                    <option value="1987">1987</option>
+                    <option value="1986">1986</option>
+                    <option value="1985">1985</option>
+                    <option value="1984">1984</option>
+                    <option value="1983">1983</option>
+                    <option value="1982">1982</option>
+                    <option value="1981">1981</option>
+                    <option value="1980">1980</option>
+                    <option value="1979">1979</option>
+                    <option value="1978">1978</option>
+                    <option value="1977">1977</option>
+                    <option value="1976">1976</option>
+                    <option value="1975">1975</option>
+                    <option value="1974">1974</option>
+                    <option value="1973">1973</option>
+                    <option value="1972">1972</option>
+                    <option value="1971">1971</option>
+                    <option value="1970">1970</option>
+                </select>
+
+                <h5> Experience </h5>
+                <label for="discipline"> Check all disciplines in which you have had a minimum of 2 years of experience:
+                </label> <br>
+                <input type="checkbox" ; name="discipline" ; value="Biological"> Biological Discipline <br>
+                <input type="checkbox" ; name="discipline" ; value="Engineering"> Engineering Discipline <br>
+                <input type="checkbox" ; name="discipline" ; value="Flight"> Flight Test Discipline <br>
+                <input type="checkbox" ; name="discipline" ; value="Medical"> Medical Science Discipline <br>
+                <input type="checkbox" ; name="discipline" ; value="Physical"> Physical Science Discipline <br>
+                <input type="checkbox" ; name="discipline" ; value="Pilot"> Pilot Discipline <br>
+                <input type="checkbox" ; name="discipline" ; value="Operations"> Operations Discipline <br>
+                <br><br>
+
+
+                <input type="submit"> <br><br>
+                <a href="application_3.html">Next &raquo;</a>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p> <cite>Background image source: <a href = "https://www.exploremars.org/wp-content/uploads/2019/11/large_mars-1.jpg"> link.</a> Side image source: <a href = "https://t4.ftcdn.net/jpg/02/05/36/55/360_F_205365552_P1OQ3q3YMZcZhzkpN88CktDg50yWb38q.jpg">link.</a></cite></p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="..//css/css_create_account.css" ; rel="stylesheet">
+    <script src="..//js/alerts.js"></script>
+    <title>Create Account</title>
+</head>
+
+<body>
+
+    <div class="full-screen">
+
+        <video src="..//img/mars_background_vid_fix_2.mp4" ; autoplay muted loop></video>
+
+        <div class="center">
+            <ul>
+                <li><a href="start_page.html">Home</a></li>
+                <li><a href="create_account.html"> Create Account </a></li>
+                <li><a href="loginpage.html"> Login </a></li>
+                <li><a href="Project About Us Page 2.html"> Mission Requirements </a></li>
+                <li><a href="Project About us Page 3.html"> Stat Info </a></li>
+                <li><a href="videopage.html"> Videos </a></li>
+                <li><a href="Project About us Page 1.html"> About Us </a></li>
+                <li><a href="Project About Us Page 4.html"> Contact </a></li>
+                <li><a href ="application_1.html"> Application </a></li>
+
+            </ul>
+        </div>
+
+        <div class="box">
+
+            <h2>Create an Account </h2>
+            <p> Applicants seeking to apply must create a profile first. Create one down below! </p>
+
+            <div>
+
+                <form action="application_1.html" ; method="POST" ; class="form" onsubmit="return matchPassword(this)">
+
+                    <div>
+                        <input type="text" ; name="firstName" ; id="firstName" ; placeholder="First Name" ; required>
+                        <br><br>
+                        <input type="text" ; name="lastName" ; id="lastName" ; placeholder="Last Name" ; required>
+                        <br> <br>
+                        <input type="email" ; name="email" ; id="email" ; placeholder="Email Address" ; required>
+                        <br> <br>
+                        <input type="password" ; name="password" ; id="pswd1" ; placeholder="Create Password" ;
+                            required>
+                        <br> <br>
+                        <input type="password" ; name="confirmPassword" ; id="pswd2" ;
+                            placeholder="Confirm Password" ; required>
+                        <br> <br>
+                        <input type="submit" ; class="submitButton" ; value="Create Account">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
